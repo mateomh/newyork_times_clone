@@ -92,7 +92,27 @@ header h1{
 .author-name{
   font-size: 12px;
 }
-
+.date-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.date-icons i{
+  width: 40px;
+  height: 30px;
+}
+.chat{
+  display: inline-block;
+}
+.chat img{
+  width: 40px;
+  height: 30px;
+}
+.chat-number{
+  position: relative;
+  font-size: 12px;
+  top: -12px;
+  left: -30px;
+}
 /* =============================== CONTENT SECTION ===================*/
 .content{
   width:50%;
@@ -112,4 +132,57 @@ header h1{
 
 #content-bottom{
 
+}
+
+.thanks{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.thank-hr{
+  width: 20%;
+  border: none;
+  border-top: 1px solid grey;
+}
+.subscribe-link{
+  text-decoration: none;
+  color: #326891;
+  
+}
+
+/*============================== Footer ===================================*/
+footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color:#333333  ;
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  
+}
+
+.footer-center{
+  text-align: center;
+  display: inline-block;
+  align-content: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: auto;
+  width: 50%;
+  margin-left: auto;
+  z-index: 4;
+}
+
+.footer-right{
+  display: inline-block;
+  text-align: right;
+  margin-right: 10%;
+  margin-bottom: 12px;
+  width: 30%;
+  z-index: 5;
 }
