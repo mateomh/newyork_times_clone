@@ -113,6 +113,39 @@ header h1{
   top: -12px;
   left: -30px;
 }
+
+.social-icons{
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-button{
+  display:inline-block;
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: lightgray; 
+  border-radius: 100%;
+}
+
+.facebook{
+  background-image: url(../Images/facebook.png);
+}
+
+.twitter{
+  background-image: url(../Images/twitter.png);
+}
+
+.envelope{
+  background-image: url(../Images/mail.png);
+}
+
+.share{
+  background-image: url(../Images/share.png);
+}
+
 /* =============================== CONTENT SECTION ===================*/
 .content{
   width:50%;
