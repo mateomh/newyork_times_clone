@@ -106,28 +106,31 @@ header h1{
 .chat img{
   width: 40px;
   height: 30px;
+  align-self: center;
 }
 .chat-number{
   position: relative;
   font-size: 12px;
-  top: -12px;
+  top: -4px;
   left: -30px;
 }
 
 .social-icons{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .icon-button{
   display:inline-block;
   width: 20px;
   height: 20px;
+  background-color: lightgray; 
+  border-radius: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 80%;
-  background-color: lightgray; 
-  border-radius: 100%;
+  margin: 0 2%;
 }
 
 .facebook{
@@ -140,12 +143,22 @@ header h1{
 
 .envelope{
   background-image: url(../Images/mail.png);
+  
 }
 
-.share{
+.share-content{
   background-image: url(../Images/share.png);
 }
 
+.bookmark-comments{
+  display: flex;
+  align-items: inherit;
+}
+
+.bubble{
+  position: relative;
+  top:-5px;
+}
 /* =============================== CONTENT SECTION ===================*/
 .content{
   width:50%;
