@@ -54,13 +54,29 @@
 .subscribe{
   background-color: #326891  ;
   color: white;
-  height: 90%;
+  height: 80%;
   border: 1px solid #567b95;
   border-radius: 5px;
   font-size: 14px;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .account{
   font-size: 12px;
+}
+
+main{
+  position: relative;
+  top: 80px;
+}
+
+header{
+  width: 70%;
+  margin: 0 auto;
+}
+
+header h1{
+  width: 50%;
+  margin: 0 auto;
 }
