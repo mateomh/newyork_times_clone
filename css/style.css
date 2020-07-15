@@ -10,7 +10,7 @@
   justify-content: space-between;
   border-bottom: 1px solid #e2e2e2 ;
   align-items: center;
-  
+  z-index: 1;
 }
 
 .navbar-section{
@@ -48,8 +48,9 @@
   text-align: end;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding-right: 3%;
 }
 .subscribe{
   background-color: #326891  ;
@@ -66,17 +67,49 @@
   font-size: 12px;
 }
 
+/* =============================== MAIN SECTION ===================*/
 main{
   position: relative;
   top: 80px;
 }
 
+/* =============================== HEADER SECTION ==================*/
 header{
   width: 70%;
-  margin: 0 auto;
+  margin: 3% auto;
 }
 
 header h1{
   width: 50%;
   margin: 0 auto;
+}
+
+.header-image{
+  width:100%;
+  height: 90%;
+}
+
+.author-name{
+  font-size: 12px;
+}
+
+/* =============================== CONTENT SECTION ===================*/
+.content{
+  width:50%;
+  background-color: teal;
+  margin: 0 auto;
+}
+
+.content-image{
+  width:70%;
+  margin: 0 auto;
+}
+
+.inflation-image{
+  width: 100%;
+  height: 700px;
+}
+
+#content-bottom{
+
 }
