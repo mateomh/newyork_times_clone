@@ -217,7 +217,7 @@ header h1{
 
 .inflation-fact-bottom{
   font-size: 12px;
-  padding-top: 15%;
+  padding-top: 65%;
   margin: 0 3%;
 }
 
@@ -268,4 +268,25 @@ header h1{
   width: 100%;
   clear: both;
   margin-bottom: 5px;
+}
+
+.links{
+  width: 70%;
+  background-color: red;
+  margin: 60px auto;
+  margin-bottom: 150px;
+  position: relative;
+  top: 50px;
+  display: flex;
+}
+.more-editor{
+  flex: 3;
+  background-color: royalblue;
+  height: 170px;
+}
+
+.popular{
+  flex: 1;
+  background-color: sienna;
+  
 }
