@@ -110,7 +110,7 @@ header h1{
 .chat-number{
   position: relative;
   font-size: 12px;
-  top: -4px;
+  top: 3px;
   left: -30px;
 }
 
@@ -122,13 +122,13 @@ header h1{
 
 .icon-button{
   display:inline-block;
-  width: 20px;
+  width: 30px;
   height: 20px;
   background-color: lightgray; 
   border-radius: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 65%;
   margin: 0 2%;
 }
 
@@ -151,7 +151,7 @@ header h1{
 
 .bookmark-comments{
   display: flex;
-  align-items: inherit;
+  margin-left:7%;
 }
 
 .bubble{
@@ -212,10 +212,8 @@ header h1{
 }
 
 .footer-center{
-  text-align: center;
   width: 50%;
   height: 50%;
-  z-index: 4;
   text-align: right;
 }
 
@@ -223,5 +221,4 @@ header h1{
   text-align: right;
   width: 30%;
   height: 50%;
-  z-index: 5;
 }
