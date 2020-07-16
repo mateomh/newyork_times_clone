@@ -282,11 +282,50 @@ header h1{
 .more-editor{
   flex: 3;
   background-color: royalblue;
-  height: 170px;
+  border-top: 1px solid black;
+}
+
+.more{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.zoro{
+  border-bottom: 1px solid black;
+}
+
+.ad{
+  width: 30%;
+  
+}
+
+.ad-image{
+  width: 100%;
+  height: 181px;
+}
+
+.image-owner{
+  font-size: 9px;
+  color: grey;
+  text-align: right;
+  display: block;
+}
+
+.ad-text{
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.ad-date{
+  font-size: 11px;
+  color: grey;
+  margin-top: 1%;
 }
 
 .popular{
   flex: 1;
   background-color: sienna;
-  
+  margin-left: 20px;
+  border-top: 1px solid black;
 }
