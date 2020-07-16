@@ -196,6 +196,31 @@ header h1{
   color: #326891;
 }
 
+.inflation-info{
+  background-image: url(../Images/inflation-1.png);
+  width: 100%;
+  height: 700px;
+  background-position: stretch;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  align-items: baseline;
+}
+
+.inflation-fact-top{
+  font-size: 12px;
+  padding-top: 55%;
+  margin: 0 3%;
+}
+
+.inflation-fact-bottom{
+  font-size: 12px;
+  padding-top: 15%;
+  margin: 0 3%;
+}
+
 /* ============================== Footer =================================== */
 #footer{
   position: fixed;
