@@ -196,7 +196,7 @@ header h1{
   color: #326891;
 }
 
-/*============================== Footer ===================================*/
+/* ============================== Footer =================================== */
 #footer{
   position: fixed;
   display: flex;
@@ -221,4 +221,26 @@ header h1{
   text-align: right;
   width: 30%;
   height: 50%;
+}
+
+/* ========================== Aside =========================================== */
+.sidebar{
+  position: absolute;
+  right: 10%;
+  top: 1300px;
+  width: 14%;
+}
+
+.sidebar-image{
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.sidebar-div{
+  width: 100%;
+  clear: both;
+  margin-bottom: 5px;
 }
