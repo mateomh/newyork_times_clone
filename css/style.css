@@ -23,7 +23,6 @@
   padding-left: 2%;
   align-content: center;
   height: 100%;
-  
   display: flex;
   align-items: center;
 }
@@ -195,12 +194,12 @@ header h1{
 .subscribe-link{
   text-decoration: none;
   color: #326891;
-  
 }
 
 /*============================== Footer ===================================*/
-footer{
+#footer{
   position: fixed;
+  display: flex;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -208,27 +207,21 @@ footer{
   cursor: pointer;
   color: white;
   height: 50px;
-  
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-center{
   text-align: center;
-  display: inline-block;
-  align-content: center;
-  justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin: auto;
   width: 50%;
-  margin-left: auto;
+  height: 50%;
   z-index: 4;
+  text-align: right;
 }
 
 .footer-right{
-  display: inline-block;
   text-align: right;
-  margin-right: 10%;
-  margin-bottom: 12px;
   width: 30%;
+  height: 50%;
   z-index: 5;
 }
