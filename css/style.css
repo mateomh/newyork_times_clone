@@ -53,7 +53,7 @@
 }
 
 .subscribe {
-  background-color: #326891  ;
+  background-color: #326891;
   color: white;
   height: 80%;
   border: 1px solid #567b95;
@@ -68,12 +68,14 @@
 }
 
 /* =============================== MAIN SECTION =================== */
+
 main {
   position: relative;
   top: 80px;
 }
 
 /* =============================== HEADER SECTION ================== */
+
 header {
   width: 70%;
   margin: 3% auto;
@@ -106,15 +108,17 @@ header h1 {
 .chat {
   display: inline-block;
 }
+
 .chat img {
   width: 40px;
   height: 30px;
   align-self: center;
 }
+
 .chat-number {
   position: relative;
   font-size: 12px;
-  top: 3px;
+  top: 5px;
   left: -30px;
 }
 
@@ -128,11 +132,12 @@ header h1 {
   display: inline-block;
   width: 30px;
   height: 20px;
-  background-color: lightgray; 
+  background-color: lightgray;
   border-radius: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 65%;
+
   margin: 0 2%;
 }
 
@@ -161,6 +166,7 @@ header h1 {
   position: relative;
   top: -5px;
 }
+
 /* =============================== CONTENT SECTION =================== */
 
 .content {
@@ -263,7 +269,6 @@ header h1 {
   width: 70%;
   margin: -50px auto 20px auto;
   padding-bottom: 100px;
-
 }
 
 .home-page {
@@ -386,7 +391,6 @@ header h1 {
 
 .ad {
   width: 30%;
-  
 }
 
 .ad-image {
