@@ -1,24 +1,25 @@
-/* ========================== NAVBAR SECTION ========================*/
-#navbar{
+/* ========================== NAVBAR SECTION ======================== */
+
+#navbar {
   background-color: white;
-  width:100%;
+  width: 100%;
   height: 40px;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e2e2e2 ;
+  border-bottom: 1px solid #e2e2e2;
   align-items: center;
   z-index: 1;
 }
 
-.navbar-section{
+.navbar-section {
   flex-basis: 33.33%;
   height: 100%;
 }
 
-#left{
+#left {
   text-align: left;
   padding-left: 2%;
   align-content: center;
@@ -27,22 +28,21 @@
   align-items: center;
 }
 
-.icons{
+.icons {
   margin-left: 3%;
 }
 
-#middle{
+#middle {
   align-items: center;
   text-align: center;
-  
 }
 
-.navbar-logo{
+.navbar-logo {
   width: 210px;
   height: 100%;
 }
 
-#right{
+#right {
   align-self: center;
   text-align: end;
   height: 100%;
@@ -51,7 +51,8 @@
   align-items: center;
   padding-right: 3%;
 }
-.subscribe{
+
+.subscribe {
   background-color: #326891  ;
   color: white;
   height: 80%;
@@ -62,66 +63,69 @@
   margin-right: 10px;
 }
 
-.account{
+.account {
   font-size: 12px;
 }
 
-/* =============================== MAIN SECTION ===================*/
-main{
+/* =============================== MAIN SECTION =================== */
+main {
   position: relative;
   top: 80px;
 }
 
-/* =============================== HEADER SECTION ==================*/
-header{
+/* =============================== HEADER SECTION ================== */
+header {
   width: 70%;
   margin: 3% auto;
 }
 
-header h1{
+header h1 {
   width: 50%;
   margin: 0 auto;
 }
 
-.header-image{
-  width:100%;
+.header-image {
+  width: 100%;
   height: 90%;
 }
 
-.author-name{
+.author-name {
   font-size: 12px;
 }
-.date-icons{
+
+.date-icons {
   display: flex;
   justify-content: space-between;
 }
-.date-icons i{
+
+.date-icons i {
   width: 40px;
   height: 30px;
 }
-.chat{
+
+.chat {
   display: inline-block;
 }
-.chat img{
+.chat img {
   width: 40px;
   height: 30px;
   align-self: center;
 }
-.chat-number{
+.chat-number {
   position: relative;
   font-size: 12px;
   top: 3px;
   left: -30px;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.icon-button{
-  display:inline-block;
+.icon-button {
+  display: inline-block;
   width: 30px;
   height: 20px;
   background-color: lightgray; 
@@ -132,70 +136,67 @@ header h1{
   margin: 0 2%;
 }
 
-.facebook{
+.facebook {
   background-image: url(../Images/facebook.png);
 }
 
-.twitter{
+.twitter {
   background-image: url(../Images/twitter.png);
 }
 
-.envelope{
+.envelope {
   background-image: url(../Images/mail.png);
-  
 }
 
-.share-content{
+.share-content {
   background-image: url(../Images/share.png);
 }
 
-.bookmark-comments{
+.bookmark-comments {
   display: flex;
-  margin-left:7%;
+  margin-left: 7%;
 }
 
-.bubble{
+.bubble {
   position: relative;
-  top:-5px;
+  top: -5px;
 }
-/* =============================== CONTENT SECTION ===================*/
-.content{
-  width:50%;
+/* =============================== CONTENT SECTION =================== */
+
+.content {
+  width: 50%;
   margin: 0 auto;
 }
 
-.content-image{
-  width:70%;
+.content-image {
+  width: 70%;
   margin: 0 auto;
 }
 
-.inflation-image{
+.inflation-image {
   width: 100%;
   height: 700px;
 }
 
-#content-bottom{
-
-}
-
-.thanks{
+.thanks {
   text-align: center;
   width: 50%;
   margin: 0 auto;
   font-weight: bold;
 }
 
-.thank-hr{
+.thank-hr {
   width: 20%;
   border: none;
   border-top: 1px solid grey;
 }
-.subscribe-link{
+
+.subscribe-link {
   text-decoration: none;
   color: #326891;
 }
 
-.inflation-info{
+.inflation-info {
   background-image: url(../Images/inflation-1.png);
   width: 100%;
   height: 700px;
@@ -207,37 +208,48 @@ header h1{
   align-items: baseline;
 }
 
-.inflation-fact-top{
+.inflation-fact-top {
   font-size: 12px;
   padding-top: 55%;
   margin: 0 3%;
 }
 
-.inflation-fact-bottom{
+.inflation-fact-bottom {
   font-size: 12px;
   padding-top: 65%;
   margin: 0 3%;
 }
 
-.article-footer{
+.article-video {
+  width: 100%;
+  height: 315px;
+}
+
+.telescope-image {
+  width: 100%;
+  height: 400px;
+}
+
+.article-footer {
   width: 50%;
-  margin:0 auto;
+  margin: 0 auto;
   font-size: 11px;
   color: grey;
   line-height: 0.5;
 }
-.read-btn{
+
+.read-btn {
   background-color: #326891;
   border: 1px solid #567b95;
   border-radius: 5px;
-  color:white;
+  color: white;
   font-weight: bold;
   font-size: 12px;
   height: 40px;
   width: 350px;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -245,49 +257,50 @@ header h1{
   align-items: center;
 }
 
-/* ============================== FOOTER =======================================*/
-#nyt-links{
-  width:70%;
+/* ============================== FOOTER ======================================= */
+
+#nyt-links {
+  width: 70%;
   margin: -50px auto 20px auto;
   padding-bottom: 100px;
 
 }
 
-.home-page{
+.home-page {
   text-align: right;
   display: inline-block;
-  width:80%;
+  width: 80%;
 }
 
-#footer-links{
+#footer-links {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
 }
 
-.footer-list{
+.footer-list {
   display: flex;
   flex-direction: column;
 }
 
-.small-links{
+.small-links {
   margin: 0;
 }
 
-.subscribe-links{
+.subscribe-links {
   border-left: 1px solid grey;
   padding-left: 2%;
 }
 
-.footer-list hr{
-  width:100%;
+.footer-list hr {
+  width: 100%;
   border: none;
   border-top: 1px solid grey;
 }
 
-.nyt-icons{
+.nyt-icons {
   display: inline-block;
-  width:15px;
+  width: 15px;
   height: 15px;
   background-image: url(../Images/nyt.png);
   background-size: cover;
@@ -295,13 +308,14 @@ header h1{
 }
 
 /* ============================== BOTTOM BAR =================================== */
-#bottom-bar{
+
+#bottom-bar {
   position: fixed;
   display: flex;
   width: 100%;
   left: 0;
   bottom: 0;
-  background-color:#333333  ;
+  background-color: #333;
   cursor: pointer;
   color: white;
   height: 50px;
@@ -309,27 +323,28 @@ header h1{
   justify-content: center;
 }
 
-.footer-center{
+.footer-center {
   width: 50%;
   height: 50%;
   text-align: right;
 }
 
-.footer-right{
+.footer-right {
   text-align: right;
   width: 30%;
   height: 50%;
 }
 
 /* ========================== ASIDE =========================================== */
-.sidebar{
+
+.sidebar {
   position: absolute;
   right: 10%;
   top: 1300px;
   width: 14%;
 }
 
-.sidebar-image{
+.sidebar-image {
   width: 75px;
   height: 75px;
   float: left;
@@ -337,14 +352,15 @@ header h1{
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
-.sidebar-div{
+
+.sidebar-div {
   width: 100%;
   clear: both;
   margin-bottom: 5px;
 }
 
 /* ========================== LINKS ========================== */
-.links{
+.links {
   width: 70%;
   margin: 60px auto;
   margin-bottom: 150px;
@@ -352,50 +368,51 @@ header h1{
   top: 50px;
   display: flex;
 }
-.more-editor{
+
+.more-editor {
   flex: 3;
   border-top: 1px solid black;
 }
 
-.more{
+.more {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.zoro{
+.zoro {
   border-bottom: 1px solid black;
 }
 
-.ad{
+.ad {
   width: 30%;
   
 }
 
-.ad-image{
+.ad-image {
   width: 100%;
   height: 181px;
 }
 
-.image-owner{
+.image-owner {
   font-size: 9px;
   color: grey;
   text-align: right;
   display: block;
 }
 
-.ad-text{
+.ad-text {
   margin-top: 2%;
   margin-bottom: 0;
 }
 
-.ad-date{
+.ad-date {
   font-size: 11px;
   color: grey;
   margin-top: 1%;
 }
 
-.popular{
+.popular {
   flex: 1;
   margin-left: 20px;
   border-top: 1px solid black;
