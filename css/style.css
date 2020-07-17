@@ -1,0 +1,472 @@
+/* ========================== NAVBAR SECTION ======================== */
+
+#navbar {
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  align-items: center;
+  z-index: 1;
+}
+
+.nav-btn {
+  margin: 0 3%;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-section {
+  flex-basis: 33.33%;
+  height: 100%;
+}
+
+#left {
+  text-align: left;
+  padding-left: 2%;
+  align-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin-left: 3%;
+}
+
+#middle {
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-logo {
+  width: 210px;
+  height: 100%;
+}
+
+#right {
+  align-self: center;
+  text-align: end;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3%;
+}
+
+.subscribe {
+  background-color: #326891;
+  color: white;
+  height: 80%;
+  border: 1px solid #567b95;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.account {
+  font-size: 12px;
+}
+
+/* =============================== MAIN SECTION =================== */
+
+main {
+  position: relative;
+  top: 80px;
+}
+
+/* =============================== HEADER SECTION ================== */
+
+header {
+  width: 70%;
+  margin: 3% auto;
+}
+
+header h1 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header-image {
+  width: 100%;
+  height: 90%;
+}
+
+.author-name {
+  font-size: 12px;
+}
+
+.date-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-icons i {
+  width: 40px;
+  height: 30px;
+}
+
+.chat {
+  display: inline-block;
+}
+
+.chat img {
+  width: 40px;
+  height: 30px;
+  align-self: center;
+}
+
+.chat-number {
+  position: relative;
+  font-size: 12px;
+  top: 4px;
+  left: -35px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: -10%;
+}
+
+.icon-button {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-color: lightgray;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  margin: 0 2%;
+}
+
+.facebook {
+  background-image: url(../Images/facebook.png);
+}
+
+.twitter {
+  background-image: url(../Images/twitter.png);
+}
+
+.envelope {
+  background-image: url(../Images/mail.png);
+}
+
+.share-content {
+  background-image: url(../Images/share.png);
+}
+
+.bookmark {
+  margin: 0 2%;
+}
+
+.bookmark-comments {
+  display: flex;
+  margin-left: 7%;
+}
+
+.bubble {
+  position: relative;
+  top: -5px;
+}
+
+/* =============================== CONTENT SECTION =================== */
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content-image {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.inflation-image {
+  width: 100%;
+  height: 700px;
+}
+
+.thanks {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.thank-hr {
+  width: 20%;
+  border: none;
+  border-top: 1px solid grey;
+}
+
+.subscribe-link {
+  text-decoration: none;
+  color: #326891;
+}
+
+.inflation {
+  width: 100%;
+  height: 700px;
+}
+
+.inflation-info {
+  display: grid;
+  position: relative;
+  top: -100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+}
+
+.inflation-fact {
+  font-size: 12px;
+  position: relative;
+  top: 50%;
+  margin: 0 3%;
+}
+
+.article-video {
+  width: 100%;
+  height: 315px;
+}
+
+.telescope-figure {
+  margin: 3% auto;
+  width: 55%;
+}
+
+.telescope-image {
+  width: 100%;
+  height: 400px;
+}
+
+.article-footer {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 11px;
+  color: grey;
+  line-height: 0.5;
+}
+
+.read-btn {
+  background-color: #326891;
+  border: 1px solid #567b95;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  height: 40px;
+  width: 350px;
+}
+
+.footer-btns {
+  width: 200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+/* ============================== FOOTER ======================================= */
+
+#nyt-links {
+  width: 70%;
+  margin: -50px auto 20px auto;
+  padding-bottom: 100px;
+}
+
+.home-page {
+  text-align: right;
+  display: inline-block;
+  width: 60%;
+  position: relative;
+  left: 15%;
+  font-size: 12px;
+}
+
+.home-page a {
+  text-decoration: none;
+  color: #326891;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.small-links {
+  margin: 0;
+}
+
+.subscribe-links {
+  border-left: 1px solid grey;
+  padding-left: 2%;
+}
+
+.footer-list hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid grey;
+}
+
+.nyt-icons {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../Images/nyt.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ============================== BOTTOM BAR =================================== */
+
+#bottom-bar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #333;
+  cursor: pointer;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-center {
+  width: 50%;
+  height: 50%;
+  text-align: right;
+}
+
+.footer-right {
+  text-align: right;
+  width: 30%;
+  height: 50%;
+}
+
+/* ========================== ASIDE =========================================== */
+
+.sidebar {
+  position: absolute;
+  right: 10%;
+  top: 1300px;
+  width: 14%;
+}
+
+.sidebar-image {
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.sidebar-div {
+  width: 100%;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+/* ========================== LINKS ========================== */
+.links {
+  width: 70%;
+  margin: 60px auto;
+  margin-bottom: 150px;
+  position: relative;
+  top: 50px;
+  display: flex;
+}
+
+.more-editor {
+  flex: 3;
+  border-top: 1px solid black;
+}
+
+.more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.zoro {
+  border-bottom: 1px solid black;
+}
+
+.ad {
+  width: 30%;
+}
+
+.ad-image {
+  width: 100%;
+  height: 181px;
+}
+
+.image-owner {
+  font-size: 9px;
+  color: grey;
+  text-align: right;
+  display: block;
+}
+
+.ad-text {
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.ad-date {
+  font-size: 11px;
+  color: grey;
+  margin-top: 1%;
+}
+
+.popular {
+  flex: 1;
+  margin-left: 20px;
+  border-top: 1px solid black;
+}
+
+#end-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.end-item {
+  flex: 1;
+  text-decoration: none;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.nyt-item {
+  flex: 3;
+}
