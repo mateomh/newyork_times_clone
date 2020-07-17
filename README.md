@@ -2,7 +2,7 @@
 
 # New York Times Article Clone Page
 
-> The objective of this project was to recreate a given page from the New York Times (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0&auth=login-google)
+> The objective of this project was to recreate this [New York Times artice](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0&auth=login-google)
 
 ![screenshot](./app_screenshot.png)
 
