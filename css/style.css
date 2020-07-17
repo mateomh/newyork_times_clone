@@ -14,6 +14,12 @@
   z-index: 1;
 }
 
+.nav-btn {
+  margin: 0 3%;
+  text-decoration: none;
+  color: black;
+}
+
 .navbar-section {
   flex-basis: 33.33%;
   height: 100%;
@@ -118,14 +124,17 @@ header h1 {
 .chat-number {
   position: relative;
   font-size: 12px;
-  top: 5px;
-  left: -30px;
+  top: 4px;
+  left: -35px;
 }
 
 .social-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  position: relative;
+  left: -10%;
 }
 
 .icon-button {
@@ -154,6 +163,10 @@ header h1 {
 
 .share-content {
   background-image: url(../Images/share.png);
+}
+
+.bookmark {
+  margin: 0 2%;
 }
 
 .bookmark-comments {
@@ -233,6 +246,11 @@ header h1 {
   height: 315px;
 }
 
+.telescope-figure {
+  margin: 3% auto;
+  width: 55%;
+}
+
 .telescope-image {
   width: 100%;
   height: 400px;
@@ -257,6 +275,10 @@ header h1 {
   width: 350px;
 }
 
+.footer-btns {
+  width: 200px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -276,7 +298,15 @@ header h1 {
 .home-page {
   text-align: right;
   display: inline-block;
-  width: 80%;
+  width: 60%;
+  position: relative;
+  left: 15%;
+  font-size: 12px;
+}
+
+.home-page a{
+  text-decoration: none;
+  color: #326891;
 }
 
 #footer-links {
@@ -288,6 +318,12 @@ header h1 {
 .footer-list {
   display: flex;
   flex-direction: column;
+}
+
+.footer-item {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
 }
 
 .small-links {
@@ -425,5 +461,18 @@ header h1 {
 }
 
 #end-links {
-  
+  display: flex;
+  flex-direction: row;
+}
+
+.end-item {
+  flex: 1;
+  text-decoration: none;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.nyt-item {
+  flex: 3;
 }

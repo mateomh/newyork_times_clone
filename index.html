@@ -6,21 +6,18 @@
   <title>Space Ripples Clone</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./Images/nyt.png" type="image/x-icon">
-  <!--
-  <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
-  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
 </head>
 <body>
   <nav id="navbar">
     <div class="navbar-section" id="left">
-      <i class="fa fa-bars icons" aria-hidden="true"></i> 
-      <i class="fa fa-search icons" aria-hidden="true"></i>
+      <a class="nav-btn" href="#"><i class="fa fa-bars icons" aria-hidden="true"></i></a>
+      <a class="nav-btn" href="#"><i class="fa fa-search icons" aria-hidden="true"></i></a>
     </div>
 
     <div class="navbar-section" id="middle">
-      <img src="https://www.goyonder.it/wp-content/uploads/2019/09/2a9.f63.NYT-large-black-clear-background.png" alt="new-york-times" class="navbar-logo">
+      <a href="#"><img src="https://www.goyonder.it/wp-content/uploads/2019/09/2a9.f63.NYT-large-black-clear-background.png" alt="new-york-times" class="navbar-logo"></a>
     </div>
 
     <div class="navbar-section" id="right">
@@ -48,17 +45,14 @@
             March 17, 2014
           </div>
           <div class="social-icons">
-            <div class="icon-button facebook"></div>
-            <div class="icon-button twitter"></div>
-            <div class="icon-button envelope"></div>
-            <div class="icon-button share-content"></div>
+            <a class="nav-btn" href="#"><div class="icon-button facebook"></div></a>
+            <a class="nav-btn" href="#"><div class="icon-button twitter"></div></a>
+            <a class="nav-btn" href="#"><div class="icon-button envelope"></div></a>
+            <a class="nav-btn" href="#"><div class="icon-button share-content"></div></a>
             <div class="bookmark-comments">  
-              <i class="fa fa-bookmark-o fa-2x" style="margin: 0 2%" aria-hidden="true"></i> 
-              <i class="fa fa-comment-o fa-2x bubble" aria-hidden="true"></i>
+              <a class="nav-btn" href="#"><i class="fa fa-bookmark-o fa-2x bookmark" aria-hidden="true"></i></a>
+              <a class="nav-btn" href="#"><i class="fa fa-comment-o fa-2x bubble" aria-hidden="true"></i></a>
               <span class="chat-number">615</span>
-              <!--
-              <div class="chat"><img src="./Images/chat.png" alt="chat"><span class="chat-number">615</span></div>
-              -->
             </div>
           </div>
         </div>
@@ -205,14 +199,14 @@
     </p><p>
       “The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
     </p>
-
-    <figure style="margin:0">
+  </article>
+    <figure class="telescope-figure">
       <img class="telescope-image" src="Images/telescope.jpg" alt="Artic Telescope" />
       <figcaption>
         The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.<span class="author-name">Steffen Richter/Associated Press</span>
       </figcaption>
     </figure>
-
+    <article class="content">
     <p>
       In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.
     </p><p>
@@ -291,11 +285,11 @@
         <div>
           <button class="read-btn" type="button">READ 615 COMMENTS</button>
         </div>
-        <div style="width:200px">
-          <div class="icon-button facebook"></div>
-          <div class="icon-button twitter"></div>
-          <div class="icon-button envelope"></div>
-          <div class="icon-button share-content"></div>
+        <div class="footer-btns">
+          <a href="#"><div class="icon-button facebook"></div></a>
+          <a href="#"><div class="icon-button twitter"></div></a>
+          <a href="#"><div class="icon-button envelope"></div></a>
+          <a href="#"><div class="icon-button share-content"></div></a>
         </div>
       </div>
     </div>
@@ -418,103 +412,116 @@
     <hr>
     <hr>
     <section id="footer-header">
-      <img src="https://www.goyonder.it/wp-content/uploads/2019/09/2a9.f63.NYT-large-black-clear-background.png" alt="new-york-times" class="navbar-logo">
-      <span class="home-page">Go To Home Page >></span>
+      <a href="#"><img src="https://www.goyonder.it/wp-content/uploads/2019/09/2a9.f63.NYT-large-black-clear-background.png" alt="new-york-times" class="navbar-logo"></a>
+      <span class="home-page"><a href="#">Go To Home Page >></a></span>
     </section>
     <section id="footer-links">
       <div class="footer-list">
         <h5>NEWS</h5>
-        <a>Home Page</a>
-        <a>World</a>
-        <a>U.S.</a>
-        <a>Politics</a>
-        <a>Election 2020</a>
-        <a>New York</a>
-        <a>Business</a>
-        <a>Tech</a>
-        <a>Science</a>
-        <a>Sports</a>
-        <a>Obituaries</a>
-        <a>Today's Paper</a>
-        <a>Corrections</a>
+        <a class="footer-item" href="#">Home Page</a>
+        <a class="footer-item" href="#">World</a>
+        <a class="footer-item" href="#">U.S.</a>
+        <a class="footer-item" href="#">Politics</a>
+        <a class="footer-item" href="#">Election 2020</a>
+        <a class="footer-item" href="#">New York</a>
+        <a class="footer-item" href="#">Business</a>
+        <a class="footer-item" href="#">Tech</a>
+        <a class="footer-item" href="#">Science</a>
+        <a class="footer-item" href="#">Sports</a>
+        <a class="footer-item" href="#">Obituaries</a>
+        <a class="footer-item" href="#">Today's Paper</a>
+        <a class="footer-item" href="#">Corrections</a>
       </div>
       <div class="footer-list">
         <h5>OPINION</h5>
-        <a>Today's Opinion</a>
-        <a>Op-Ed Columnists</a>
-        <a>Editorials</a>
-        <a>Op-Ed Contributors</a>
-        <a>Letters</a>
-        <a>Sunday Review</a>
-        <a>Video: Opinion</a>
+        <a class="footer-item" href="#">Today's Opinion</a>
+        <a class="footer-item" href="#">Op-Ed Columnists</a>
+        <a class="footer-item" href="#">Editorials</a>
+        <a class="footer-item" href="#">Op-Ed Contributors</a>
+        <a class="footer-item" href="#">Letters</a>
+        <a class="footer-item" href="#">Sunday Review</a>
+        <a class="footer-item" href="#">Video: Opinion</a>
       </div>
       <div class="footer-list">
         <h5>ARTS</h5>
-        <a>Today's Arts</a>
-        <a>Art & Design</a>
-        <a>Books</a>
-        <a>Dance</a>
-        <a>Movies</a>
-        <a>Music</a>
-        <a>Pop Culture</a>
-        <a>Television</a>
-        <a>Theater</a>
-        <a>Video: Arts</a>
+        <a class="footer-item" href="#">Today's Arts</a>
+        <a class="footer-item" href="#">Art & Design</a>
+        <a class="footer-item" href="#">Books</a>
+        <a class="footer-item" href="#">Dance</a>
+        <a class="footer-item" href="#">Movies</a>
+        <a class="footer-item" href="#">Music</a>
+        <a class="footer-item" href="#">Pop Culture</a>
+        <a class="footer-item" href="#">Television</a>
+        <a class="footer-item" href="#">Theater</a>
+        <a class="footer-item" href="#">Video: Arts</a>
       </div>
       <div class="footer-list">
         <h5>LIVING</h5>
-        <a>At Home</a>
-        <a>Automobiles</a>
-        <a>Crossword</a>
-        <a>Education</a>
-        <a>Food</a>
-        <a>Health</a>
-        <a>Jobs</a>
-        <a>Love</a>
-        <a>Magazine</a>
-        <a>Parenting</a>
-        <a>Real Estate</a>
-        <a>Recipes</a>
-        <a>Style</a>
-        <a>T Magazine</a>
-        <a>Travel</a>
+        <a class="footer-item" href="#">At Home</a>
+        <a class="footer-item" href="#">Automobiles</a>
+        <a class="footer-item" href="#">Crossword</a>
+        <a class="footer-item" href="#">Education</a>
+        <a class="footer-item" href="#">Food</a>
+        <a class="footer-item" href="#">Health</a>
+        <a class="footer-item" href="#">Jobs</a>
+        <a class="footer-item" href="#">Love</a>
+        <a class="footer-item" href="#">Magazine</a>
+        <a class="footer-item" href="#">Parenting</a>
+        <a class="footer-item" href="#">Real Estate</a>
+        <a class="footer-item" href="#">Recipes</a>
+        <a class="footer-item" href="#">Style</a>
+        <a class="footer-item" href="#">T Magazine</a>
+        <a class="footer-item" href="#">Travel</a>
       </div>
       <div class="footer-list">
         <h5>MORE</h5>
-        <a>Reader Center</a>
-        <a>Wirecutter</a>
-        <a>Live Events</a>
-        <a>The Learning Network</a>
-        <a>Tools & Services</a>
-        <a>Multimedia</a>
-        <a>Photography</a>
-        <a>Video</a>
-        <a>Newsletters</a>
-        <a>TimesMachine</a>
-        <a>NYT Store</a>
-        <a>Times Journeys</a>
-        <a>Manage My Account</a>
+        <a class="footer-item" href="#">Reader Center</a>
+        <a class="footer-item" href="#">Wirecutter</a>
+        <a class="footer-item" href="#">Live Events</a>
+        <a class="footer-item" href="#">The Learning Network</a>
+        <a class="footer-item" href="#">Tools & Services</a>
+        <a class="footer-item" href="#">Multimedia</a>
+        <a class="footer-item" href="#">Photography</a>
+        <a class="footer-item" href="#">Video</a>
+        <a class="footer-item" href="#">Newsletters</a>
+        <a class="footer-item" href="#">TimesMachine</a>
+        <a class="footer-item" href="#">NYT Store</a>
+        <a class="footer-item" href="#">Times Journeys</a>
+        <a class="footer-item" href="#">Manage My Account</a>
       </div>
       <div class="footer-list subscribe-links">
         <h5>SUBSCRIBE</h5>
-        <h4 class="small-links"><i class="fa fa-book" aria-hidden="true"></i> Home Delivery</h4>
-        <h4 class="small-links"> <i class="nyt-icons"></i> Digital Subscriptions</h4>
-        <h4 class="small-links"><i class="fa fa-plus-square-o" aria-hidden="true"></i> Crossword</h4>
-        <h4 class="small-links"><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</h4>
+        <h4 class="small-links"><a class="footer-item" href="#"><i class="fa fa-book" aria-hidden="true"></i> Home Delivery</a></h4>
+        <h4 class="small-links"> <a class="footer-item" href="#"><i class="nyt-icons"></i> Digital Subscriptions</a></h4>
+        <h4 class="small-links"> <a class="footer-item" href="#"><i class="fa fa-plus-square-o" aria-hidden="true"></i> Crossword</a></h4>
+        <h4 class="small-links"> <a class="footer-item" href="#"><i class="fa fa-cutlery" aria-hidden="true"></i> Cooking</a></h4>
         <hr>
-        <p class="small-links"><small>Email Newsletters</small></p>
-        <p class="small-links"><small>Corporate Subscriptions</small></p>
-        <p class="small-links"><small>Education Rate</small></p>
+        <p class="small-links"><a class="footer-item" href="#"><small>Email Newsletters</small></a></p>
+        <p class="small-links"><a class="footer-item" href="#"><small>Corporate Subscriptions</small></small></p>
+        <p class="small-links"><a class="footer-item" href="#"></a><small>Education Rate</small></a></p>
         <hr>
-        <p class="small-links"><small>Mobile Applications</small></p>
-        <p class="small-links"><small>Replica Edition</small></p>
-        <p class="small-links"><small>Español</small></p>
-        <p class="small-links"><small>中文网</small></p>
+        <p class="small-links"><a class="footer-item" href="#"><small>Mobile Applications</small></a></p>
+        <p class="small-links"><a class="footer-item" href="#"><small>Replica Edition</small></a></p>
+        <p class="small-links"><a class="footer-item" href="#"><small>Español</small></a></p>
+        <p class="small-links"><a class="footer-item" href="#"><small>中文网</small></a></p>
       </div>
     </section>
-
+    <hr />
     <section id="end-links">
-      
+      <a class="nyt-item end-item" href="#">&copy; 2020 The New York Times Company</a>
+      <a class="end-item" href="#">NYTCo</a>
+      <a class="end-item" href="#">Contact Us</a>
+      <a class="end-item" href="#">Work with us</a>
+      <a class="end-item" href="#">Advertise</a>
+      <a class="end-item" href="#">T Brand Studio</a>
+      <a class="end-item" href="#">Your Ad Choices</a>
+      <a class="end-item" href="#">Privacy</a>
+      <a class="end-item" href="#">Terms of Service</a>
+      <a class="end-item" href="#">Terms of Sale</a>
+      <a class="end-item" href="#">Site Map</a>
+      <a class="end-item" href="#">Help</a>
+      <a class="end-item" href="#">Subscriptions</a>
+  
     </section>
   </footer>
 
